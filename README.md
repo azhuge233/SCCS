@@ -15,3 +15,5 @@
     - Squirrel Temp directory cleaner
 - NVCacheClean
     - Nvidia card cache cheaner
+- BattleNetCacheClean
+    - Blizzard Battle.net cache&log cleaner
