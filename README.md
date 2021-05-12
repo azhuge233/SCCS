@@ -17,3 +17,5 @@
     - Nvidia card cache cheaner
 - BattleNetCacheClean
     - Blizzard Battle.net cache&log cleaner
+- HeroesOfTheStormReplayClean
+    - Heroes of the Storm replay files cleaner
