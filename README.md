@@ -10,7 +10,7 @@
 - ThunderVIPTorrentsClean
     - Thunder VIP downloader torrents & download cache cleaner
 - SteamClean
-    - Steam client web cache cleaner, this will delete all the cache files that created before today.
+    - Steam client web cache cleaner.
 - SquirrelTempClean
     - Squirrel Temp directory cleaner
 - NVCacheClean
