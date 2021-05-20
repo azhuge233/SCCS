@@ -14,8 +14,10 @@
 - SquirrelTempClean
     - Squirrel Temp directory cleaner
 - NVCacheClean
-    - Nvidia card cache cheaner
+    - Nvidia graphics card cache cheaner
 - BattleNetCacheClean
     - Blizzard Battle.net cache&log cleaner
 - HeroesOfTheStormReplayClean
     - Heroes of the Storm replay files cleaner
+- IntelShaderCacheClean
+    - Intel graphics card shader cache cleaner
