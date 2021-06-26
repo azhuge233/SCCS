@@ -1,4 +1,4 @@
-﻿$epicGameCachePath = "$env:USERPROFILE\AppData\Local\EpicGamesLauncher\Saved\webcache\Cache"
+﻿$epicGameCachePath = "$env:USERPROFILE\AppData\Local\EpicGamesLauncher\Saved\webcache_*\Cache"
 
 try {
     Get-ChildItem -Path $epicGameCachePath -Recurse -Force -Filter f_* -ErrorAction Stop | Remove-Item -Verbose
