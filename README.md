@@ -21,3 +21,9 @@
     - Heroes of the Storm replay files cleaner
 - IntelShaderCacheClean
     - Intel graphics card shader cache cleaner
+- MSEdgeUpdateLog
+    - Microsoft Edge update logs cleaner
+- AMDDxCacheClean
+    - AMD graphics card cache cleaner
+- D3DSCacheClean
+    - D3DSCache cleaner
