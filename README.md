@@ -27,3 +27,5 @@
     - AMD graphics card cache cleaner
 - D3DSCacheClean
     - D3DSCache cleaner
+- OriginCacheClean
+    - Origin(EA) web cache cleaner
