@@ -29,3 +29,5 @@
     - D3DSCache cleaner
 - OriginCacheClean
     - Origin(EA) web cache cleaner
+- ADriveLogClean
+    - Ali Cloud Drive log cleaner
