@@ -3,6 +3,7 @@
 
 - BaiduNetDiskUpdateClean 
     - BaiduNetDisk update package cleaner
+    - Clean pepflashplayer.dll and browser module.
 - EpicGameStoreCacheClean
     - Epic Game Store web cache cleaner
 - NeteaseUpdateClean
