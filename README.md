@@ -32,3 +32,5 @@
     - Origin(EA) web cache cleaner
 - ADriveLogClean
     - Ali Cloud Drive log cleaner
+- PowerToysLogClean
+    - PowerToys log cleaner
