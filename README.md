@@ -34,3 +34,11 @@
     - Ali Cloud Drive log cleaner
 - PowerToysLogClean
     - PowerToys log cleaner
+- DingTalkCacheClean
+    - DingTalk cache cleaner
+- TencentLogClean
+    - Clean .tlg logs under Tencent log directory
+- DingTalkLogClean
+    - DingTalk log cleaner
+- WeChatLogClean
+    - WeChat log(.xlog, .log) cleaner
