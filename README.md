@@ -42,3 +42,16 @@
     - DingTalk log cleaner
 - WeChatLogClean
     - WeChat log(.xlog, .log) cleaner
+- ADrivePendingUpdatePackageClean
+    - ADrive pending update package (in AppData) cleaner
+- NotionUpdatePackageClean
+    - Notion installer, same as ADrive
+- FencesSasLogClean
+    - Stardock Fences3 log cleaner
+- ClashCacheClean
+    - Clash for Windows cache cleaner
+- OneDriveLogClean
+    - OneDrive log cleaner (in Common and Personal folder)
+- SplashtopLogClean
+    - Splashtop (remote desktop) log cleaner
+
