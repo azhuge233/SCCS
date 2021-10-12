@@ -54,4 +54,6 @@
     - OneDrive log cleaner (in Common and Personal folder)
 - SplashtopLogClean
     - Splashtop (remote desktop) log cleaner
+- PlayerLogClean
+    - Games' player.log file under `Appdata\LocalLow` folder
 
