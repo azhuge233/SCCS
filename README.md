@@ -12,6 +12,7 @@
     - Thunder VIP downloader torrents & download cache cleaner
 - SteamClean
     - Steam client web cache cleaner.
+    - SteamVR cache cleaner.
 - SquirrelTempClean
     - Squirrel Temp directory cleaner
 - NVCacheClean
@@ -56,4 +57,6 @@
     - Splashtop (remote desktop) log cleaner
 - PlayerLogClean
     - Games' player.log file under `Appdata\LocalLow` folder
+- OculusLogCacheClean
+    - Oculus PC App cache&log cleaner.
 
