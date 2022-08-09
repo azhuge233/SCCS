@@ -1,10 +1,12 @@
 ﻿$battleNetBrowserCachePath = "$env:USERPROFILE\AppData\Local\Battle.net\BrowserCache\Cache"
+$battleNetBrowserCodeCachePath = "$env:USERPROFILE\AppData\Local\Battle.net\BrowserCache\Code Cache\js"
 $battleNetCachePath = "$env:USERPROFILE\AppData\Local\Battle.net\Cache"
 $battleNetProgramDataCachePath = "$env:PROGRAMDATA\Blizzard Entertainment\Battle.net\Cache"
 $battleNetProgramDataLogPath = "$env:PROGRAMDATA\Battle.net\Agent\Agent.*\Logs"
 
 try {
     Get-ChildItem -Path $battleNetCachePath -Recurse -Force -ErrorAction Stop | Remove-Item -Verbose -Recurse
+	Get-ChildItem -Path $battleNetBrowserCodeCachePath -Recurse -Force -Filter *_0 -ErrorAction Stop | Remove-Item -Verbose -Recurse
     Get-ChildItem -Path $battleNetProgramDataCachePath -Recurse -Force  -ErrorAction Stop | Remove-Item -Verbose -Recurse
     Get-ChildItem -Path $battleNetBrowserCachePath -Recurse -Force -Filter f_*  -ErrorAction Stop | Remove-Item -Verbose
     Get-ChildItem -Path $battleNetProgramDataLogPath -Recurse -Force -Filter *.log  -ErrorAction Stop | Remove-Item -Verbose
