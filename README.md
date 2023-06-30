@@ -16,14 +16,14 @@
             // list of this app's file directories
             {
                 "Filters": [
-                    // list of file filters
+                    // list of filename filters
                     // add different file prefix or suffix here
                     "*.log", "log_*.txt"
                 ],
                 "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\some directory\\logs"
             },
             {
-                "Filters": [], // can leave empty here
+                "Filters": [], // can be left empty
                 "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\some other directory\\logs"
             },
             // ...
