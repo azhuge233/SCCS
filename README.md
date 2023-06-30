@@ -1,62 +1,41 @@
 # SCCS
- Software Cache Cleaning Scripts (Windows only)
+ Software Cache Cleaning Scripts (Windows)
 
-- BaiduNetDiskUpdateClean 
-    - BaiduNetDisk update package cleaner
-    - Clean pepflashplayer.dll and browser module.
-- EpicGameStoreCacheClean
-    - Epic Game Store web cache cleaner
-- NeteaseUpdateClean
-    - Netease Music update package cleaner
-- ThunderVIPTorrentsClean
-    - Thunder VIP downloader torrents & download cache cleaner
-- SteamClean
-    - Steam client web cache cleaner.
-    - SteamVR cache cleaner.
-- SquirrelTempClean
-    - Squirrel Temp directory cleaner
-- NVCacheClean
-    - Nvidia graphics card cache cheaner
-- BattleNetCacheClean
-    - Blizzard Battle.net cache&log cleaner
-- HeroesOfTheStormReplayClean
-    - Heroes of the Storm replay files cleaner
-- IntelShaderCacheClean
-    - Intel graphics card shader cache cleaner
-- MSEdgeUpdateLog
-    - Microsoft Edge update logs cleaner
-- AMDDxCacheClean
-    - AMD graphics card cache cleaner
-- D3DSCacheClean
-    - D3DSCache cleaner
-- OriginCacheClean
-    - Origin(EA) web cache cleaner
-- ADriveLogClean
-    - Ali Cloud Drive log cleaner
-- PowerToysLogClean
-    - PowerToys log cleaner
-- DingTalkCacheClean
-    - DingTalk cache cleaner
-- TencentLogClean
-    - Clean .tlg logs under Tencent log directory
-- DingTalkLogClean
-    - DingTalk log cleaner
-- WeChatLogClean
-    - WeChat log(.xlog, .log) cleaner
-- ADrivePendingUpdatePackageClean
-    - ADrive pending update package (in AppData) cleaner
-- NotionUpdatePackageClean
-    - Notion installer, same as ADrive
-- FencesSasLogClean
-    - Stardock Fences3 log cleaner
-- ClashCacheClean
-    - Clash for Windows cache cleaner
-- OneDriveLogClean
-    - OneDrive log cleaner (in Common and Personal folder)
-- SplashtopLogClean
-    - Splashtop (remote desktop) log cleaner
-- PlayerLogClean
-    - Games' player.log file under `Appdata\LocalLow` folder
-- OculusLogCacheClean
-    - Oculus PC App cache&log cleaner.
+
+
+`Clean.ps1` just a file delete powershell script, you can add your own rules in path.json to let it delete files for you.
+
+`path.json` format definition:
+
+```json
+[
+    // list of different apps
+    {
+        "Name": "App name 1",
+        "Entries": [
+            // list of this app's file directories
+            {
+                "Filters": [
+                    // list of file filters
+                    // add different file prefix or suffix here
+                    "*.log", "log_*.txt"
+                ],
+                "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\some directory\\logs"
+            },
+            {
+                "Filters": [], // can leave empty here
+                "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\some other directory\\logs"
+            },
+            // ...
+        ]
+    },
+    {
+        "Name": "App name 2",
+        "Entries": [
+            // ...
+        ]
+    },
+    // ...
+]
+```
 
