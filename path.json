@@ -1,0 +1,407 @@
+[
+  {
+    "Name": "ADrive",
+	"Entries": [
+      {
+        "Filters": [
+          "*.log"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\aDrive\\logs"
+      },
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\adrive-desktop-updater\\pending"
+      },
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\aDrive\\Partitions\\adrive\\Cache"
+      },
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\adrive-desktop-updater\\pending"
+      }
+    ]
+  },
+  {
+    "Name": "AMDDxCache",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\AMD\\DxCache"
+      },
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\AMD\\DxcCache"
+      }
+    ]
+  },
+  {
+    "Name": "BaiduNetDisk",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\baidu\\BaiduNetdisk\\AutoUpdate\\Download\\MainApp"
+      },
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\baidu\\BaiduNetdisk\\pepflashplayer.dll"
+      },
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\baidu\\BaiduNetdisk\\module\\browserengine"
+      },
+      {
+        "Filters": [
+          "*.log"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\BaiduYunKernel\\Data"
+      }
+    ]
+  },
+  {
+    "Name": "BattleNetCache",
+	"Entries": [
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Battle.net\\BrowserCache\\Cache"
+      },
+      {
+        "Filters": [
+          "*_0"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Battle.net\\BrowserCache\\Code Cache\\js"
+      },
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Battle.net\\Cache"
+      },
+      {
+        "Filters": [],
+        "Path": "$($Env:PROGRAMDATA)\\Blizzard Entertainment\\Battle.net\\Cache"
+      },
+      {
+        "Filters": [
+          "*.log"
+        ],
+        "Path": "$($Env:PROGRAMDATA)\\Battle.net\\Agent\\Agent.*\\Logs"
+      }
+    ]
+  },
+  {
+    "Name": "ClashCache",
+	"Entries": [
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\clash_win\\Cache"
+      }
+    ]
+  },
+  {
+    "Name": "D3DCache",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\D3DSCache"
+      }
+    ]
+  },
+  {
+    "Name": "DingTalk",
+	"Entries": [
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\DingTalk_*\\Cache"
+      },
+      {
+        "Filters": [
+          "*_0"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\DingTalk_*\\Code Cache\\js"
+      },
+      {
+        "Filters": [
+          "*_0"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\DingTalk_*\\Code Cache\\wasm"
+      },
+      {
+        "Filters": [
+          "*.log*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\DingTalk\\log"
+      },
+      {
+        "Filters": [
+          "*.holmes*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\DingTalk\\holmeslogs"
+      },
+      {
+        "Filters": [
+          "*.txt"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\DingTalk\\updaterlogs"
+      }
+    ]
+  },
+  {
+    "Name": "EpicGameStoreCache",
+	"Entries": [
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\EpicGamesLauncher\\Saved\\webcache_*\\Cache"
+      }
+    ]
+  },
+  {
+    "Name": "FencesSasLog",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Stardock\\Fences3"
+      }
+    ]
+  },
+  {
+    "Name": "HeroesOfTheStormReplay",
+	"Entries": [
+      {
+        "Filters": [
+          "*.StormReplay"
+        ],
+        "Path": "$($Env:USERPROFILE)\\Documents\\Heroes of the Storm\\Accounts\\*\\*-Hero-*\\Replays\\Multiplayer\\*"
+      }
+    ]
+  },
+  {
+    "Name": "IntelShaderCache",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\Appdata\\LocalLow\\Intel\\ShaderCache"
+      }
+    ]
+  },
+  {
+    "Name": "MicrosoftEdgeUpdateLog",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "$($Env:PROGRAMDATA)\\Microsoft\\EdgeUpdate\\Log"
+      }
+    ]
+  },
+  {
+    "Name": "NeteaseMusicUpdate",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Netease\\CloudMusic\\update"
+      }
+    ]
+  },
+  {
+    "Name": "Steam",
+	"Entries": [
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Steam\\htmlcache\\Cache"
+      },
+      {
+        "Filters": [
+          "*_0"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Steam\\htmlcache\\Code Cache\\js"
+      },
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\SteamVR\\htmlcache\\Cache"
+      },
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\SteamVR\\htmlcache\\GPUCache"
+      }
+    ]
+  },
+  {
+    "Name": "TencentLog",
+	"Entries": [
+      {
+        "Filters": [
+          "*.tlg"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\Tencent\\Logs"
+      }
+    ]
+  },
+  {
+    "Name": "ThunderVIP",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "C:\\Program Files (x86)\\Thunder Network\\ThunderVIP\\Profiles\\Torrents"
+      }
+    ]
+  },
+  {
+    "Name": "WeChatLog",
+	"Entries": [
+      {
+        "Filters": [
+          "*.*log"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\Tencent\\WeChat\\log"
+      }
+    ]
+  },
+  {
+    "Name": "SplashtopLog",
+	"Entries": [
+      {
+        "Filters": [
+          "*_*"
+        ],
+        "Path": "$($Env:PROGRAMDATA)\\Splashtop\\Splashtop Remote Client for STP\\*"
+      }
+    ]
+  },
+  {
+    "Name": "SquirrelTemp",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\SquirrelTemp"
+      }
+    ]
+  },
+  {
+    "Name": "NotionUpdatePackage",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\notion-updater"
+      }
+    ]
+  },
+  {
+    "Name": "NvidiaCache",
+	"Entries": [
+      {
+        "Filters": [],
+        "Path": "$($Env:PROGRAMDATA)\\NVIDIA Corporation\\NV_Cache"
+      },
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\NVIDIA\\DXCache"
+      }
+    ]
+  },
+  {
+    "Name": "OculusLogCache",
+	"Entries": [
+      {
+        "Filters": [
+          "*.log",
+          "PerfLog*.json",
+          "Client*.txt",
+          "LinkClient*.txt",
+          "Service*.txt",
+          "OVRRedir*.txt",
+          "GuardianBoundary*.txt"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Oculus"
+      },
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\LocalLow\\Oculus\\Dash\\misc\\RCTCache"
+      },
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\OculusClient\\Cache"
+      }
+    ]
+  },
+  {
+    "Name": "OneDriveLog",
+	"Entries": [
+      {
+        "Filters": [
+          "*.odl"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Microsoft\\OneDrive\\logs\\Common"
+      },
+      {
+        "Filters": [
+          "*.odlsent",
+          "*.etl"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Microsoft\\OneDrive\\logs\\Personal"
+      }
+    ]
+  },
+  {
+    "Name": "OriginCache",
+	"Entries": [
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Origin\\Origin\\cache\\QtWebEngine\\Default\\Cache"
+      }
+    ]
+  },
+  {
+    "Name": "PlayerLog",
+	"Entries": [
+      {
+        "Filters": [
+          "Player.log",
+          "Player-prev.log",
+          "output_log.txt"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\LocalLow\\*\\*"
+      }
+    ]
+  },
+  {
+    "Name": "PowerToysLog",
+	"Entries": [
+	  {
+        "Filters": [
+          "*.txt"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Microsoft\\PowerToys\\*"
+      },
+      {
+        "Filters": [
+          "*.txt"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Microsoft\\PowerToys\\*\\Logs"
+      },
+	  {
+        "Filters": [
+          "*.txt"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Microsoft\\PowerToys\\*\\*\\Logs"
+      }
+    ]
+  }
+]
