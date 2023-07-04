@@ -57,6 +57,12 @@
           "*.log"
         ],
         "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\BaiduYunKernel\\Data"
+      },
+	  {
+        "Filters": [
+          "*.log", "*.txt"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\BaiduYunGuanjia\\logs"
       }
     ]
   },
