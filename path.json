@@ -25,7 +25,7 @@
     ]
   },
   {
-    "Name": "AMDDxCache",
+    "Name": "AMD",
 	"Entries": [
       {
         "Filters": [],
@@ -34,6 +34,18 @@
       {
         "Filters": [],
         "Path": "$($Env:USERPROFILE)\\AppData\\Local\\AMD\\DxcCache"
+      },
+	  {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\AMD\\Dx9Cache"
+      },
+	  {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\AMD\\OglCache"
+      },
+	  {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\AMD\\*\\NewsFeed"
       }
     ]
   },
