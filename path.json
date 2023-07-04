@@ -159,6 +159,17 @@
     ]
   },
   {
+    "Name": "Discord",
+	"Entries": [
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\discord\\Cache\\Cache_Data"
+      }
+    ]
+  },
+  {
     "Name": "EpicGameStoreCache",
 	"Entries": [
       {
@@ -284,6 +295,17 @@
           "*.*log"
         ],
         "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\Tencent\\WeChat\\log"
+      }
+    ]
+  },
+  {
+    "Name": "SideQuest",
+	"Entries": [
+      {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\SideQuest\\Cache"
       }
     ]
   },
