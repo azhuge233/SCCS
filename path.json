@@ -414,5 +414,20 @@
         "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Microsoft\\PowerToys\\*\\*\\Logs"
       }
     ]
+  },
+  {
+    "Name": "VSCodeCache",
+	"Entries": [
+	  {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\Code\\Cache\\Cache_Data"
+      },
+	  {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\Code\\CachedExtensionVSIXs"
+      }
+    ]
   }
 ]
