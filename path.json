@@ -211,6 +211,17 @@
     ]
   },
   {
+    "Name": "QQNTZip",
+	"Entries": [
+	  {
+        "Filters": [
+          "*.zip"
+        ],
+        "Path": "$($Env:PROGRAMFILES)\\Tencent\\QQNT\\resources\\app\\versions"
+      }
+    ]
+  },
+  {
     "Name": "Steam",
 	"Entries": [
       {
