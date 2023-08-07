@@ -311,6 +311,23 @@
     ]
   },
   {
+    "Name": "WeMod",
+	"Entries": [
+      {
+        "Filters": [
+          "*_0"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\WeMod\\Partitions\\ads\\Code Cache\\js"
+      },
+	  {
+        "Filters": [
+          "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\WeMod\\Partitions\\ads\\Cache\\Cache_Data"
+      }
+    ]
+  },
+  {
     "Name": "SideQuest",
 	"Entries": [
       {
