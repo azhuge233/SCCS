@@ -240,13 +240,23 @@
     ]
   },
   {
-    "Name": "QQNTZip",
+    "Name": "QQNT",
 	"Entries": [
 	  {
         "Filters": [
           "*.zip"
         ],
         "Path": "$($Env:PROGRAMFILES)\\Tencent\\QQNT\\resources\\app\\versions"
+      },
+	  {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\Appdata\\Roaming\\QQ\\tmp"
+      },
+	  {
+        "Filters": [
+			"*.zip"
+		],
+        "Path": "$($Env:USERPROFILE)\\Appdata\\Roaming\\QQ\\dynamic_package\\gameCenterQQPlay"
       }
     ]
   },
