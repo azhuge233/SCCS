@@ -75,6 +75,12 @@
           "*.log", "*.txt"
         ],
         "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\BaiduYunGuanjia\\logs"
+      },
+	  {
+        "Filters": [
+          "*.zip"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\baidu\\BaiduNetdisk\\skin"
       }
     ]
   },
@@ -387,6 +393,10 @@
       {
         "Filters": [],
         "Path": "$($Env:USERPROFILE)\\AppData\\Local\\NVIDIA\\DXCache"
+      },
+      {
+        "Filters": [],
+        "Path": "$($Env:USERPROFILE)\\AppData\\LocalLow\\NVIDIA\\PerDriverVersion\\DXCache"
       }
     ]
   },
@@ -496,5 +506,18 @@
         "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\Code\\CachedExtensionVSIXs"
       }
     ]
+  },
+  {
+	"Name": "Windows Master",
+	"Entries": [
+	  {
+		"Filters": [],
+		"Path": "$($Env:PROGRAMDATA)\\Windows Master Setup"
+	  },
+	  {
+		"Filters": [],
+		"Path": "$($Env:PROGRAMDATA)\\Windows Master Store"
+	  }
+	]
   }
 ]
