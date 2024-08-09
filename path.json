@@ -231,11 +231,17 @@
     ]
   },
   {
-    "Name": "NeteaseMusicUpdate",
-	"Entries": [
+    "Name": "Netease Music",
+    "Entries": [
       {
         "Filters": [],
         "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Netease\\CloudMusic\\update"
+      },
+      {
+        "Filters": [
+	      "f_*"
+        ],
+        "Path": "$($Env:USERPROFILE)\\AppData\\Local\\Netease\\CloudMusic\\webapp*\\Cache"
       }
     ]
   },
