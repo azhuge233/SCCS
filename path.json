@@ -75,12 +75,6 @@
           "*.log", "*.txt"
         ],
         "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\BaiduYunGuanjia\\logs"
-      },
-	  {
-        "Filters": [
-          "*.zip"
-        ],
-        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\baidu\\BaiduNetdisk\\skin"
       }
     ]
   },
