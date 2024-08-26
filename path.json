@@ -62,7 +62,7 @@
       },
       {
         "Filters": [],
-        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\baidu\\BaiduNetdisk\\module\\browserengine"
+        "Path": "$($Env:USERPROFILE)\\AppData\\Roaming\\baidu\\BaiduNetdisk\\module\\AiEngine"
       },
       {
         "Filters": [
